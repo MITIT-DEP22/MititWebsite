@@ -1,0 +1,99 @@
+version: '3'
+
+services:
+    distribution-back:
+        build: ../Distribution/distribition-backend
+        ports:
+            - '5000:5000'
+        expose:
+            - '5000'
+        restart: always
+
+    api:
+        build: ./MititBack/
+        ports:
+            - '8082:8081'
+        expose:
+            - '8082'
+        container_name: mitit_back
+        environment:
+            MYSQL_HOST: mitit_db
+            MYSQL_PORT: <db_port>
+            MYSQL_NAME: <db_name>
+            MYSQL_USERNAME: <db_user>
+            MYSQL_PASSWORD: <db_password>
+            SFTP_HOST: <sftp_host>
+            SFTP_PORT: <sftp_port>
+            SFTP_USERNAME: <sftp_user>
+            SFTP_PASSWORD: <sftp_password>
+            JWT_SECRET: <jwt_secret>
+            JWT_ACCESS_EXPIRATION: <jwt_access_expiration>
+            JWT_REFRESH_EXPIRATION: <jwt_refresh_expiration>
+            SERVER_PORT: <server_port>
+        volumes:
+            - api:/home/mitit-back/logs/
+        depends_on:
+            - 'db'
+        restart: always
+
+    web:
+        build: ./MititFront/
+        ports:
+            - '80:80'
+        expose:
+            - '80'
+        container_name: mitit_front
+        depends_on:
+            - 'api'
+        restart: always
+
+    web-admin:
+        build: ./MititAdminFront/
+        ports:
+            - '4000:80'
+        expose:
+            - '4000'
+        container_name: mitit_admin_front
+        depends_on:
+            - 'api'
+        restart: always
+
+    tg:
+        build: ./MititTgBot/
+        container_name: mitit_bot_tg
+        depends_on:
+            - 'db'
+        volumes:
+            - tg:/home/tg/logs/
+        restart: always
+
+    db:
+        image: mysql
+        container_name: mitit_db
+        environment:
+            MYSQL_ROOT_PASSWORD: <db_password>
+        ports:
+            - '3306:3306'
+        expose:
+            - '3306'
+        volumes:
+            - ./database/init:/docker-entrypoint-initdb.d
+            - mitit_db:/var/lib/mysql
+        restart: always
+
+volumes:
+    mitit_db:
+        driver: local
+    tg:
+        driver: local
+        driver_opts:
+            type: none
+            o: bind
+            device: ./logs/bot/
+
+    api:
+        driver: local
+        driver_opts:
+            type: none
+            o: bind
+            device: ./logs/back/
