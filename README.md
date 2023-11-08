@@ -1,9 +1,15 @@
 # MititWebsite
 
-##Pull a Git Submodule
+This is the main repository and it includes several submodules.
 
-### `git submodule update --init --recursive`
+## Pull a Git Submodule
 
-##Update a Git Submodule
+To pull a Git submodule, use the following command:
 
-### `git submodule update --remote --merge`
+#### `git submodule update --init --recursive`
+
+## Update a Git Submodule
+
+To update a Git submodule, use the following command:
+
+#### `git submodule update --remote --merge`
