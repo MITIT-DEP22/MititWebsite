@@ -1,9 +1,9 @@
 [submodule "MititBack"]
 	path = MititBack
-	url = git@github.com:MITIT-DEP22/MititBack.git
+	url = ../MititBack.git
 [submodule "MititFront"]
 	path = MititFront
-	url = git@github.com:MITIT-DEP22/MititFront.git
+	url = ../MititFront.git
 [submodule "MititAdminFront"]
 	path = MititAdminFront
-	url = git@github.com:MITIT-DEP22/MititAdminFront.git
+	url = ../MititAdminFront.git
