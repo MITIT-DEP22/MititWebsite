@@ -1,9 +1,6 @@
-[submodule "MititBack"]
-	path = MititBack
-	url = ../MititBack.git
-[submodule "MititFront"]
-	path = MititFront
-	url = ../MititFront.git
-[submodule "MititAdminFront"]
-	path = MititAdminFront
-	url = ../MititAdminFront.git
+[submodule "MititBackend"]
+	path = MititBackend
+	url = ../MititBackend.git
+[submodule "MititFrontend"]
+	path = MititFrontend
+	url = ../MititFrontend.git
