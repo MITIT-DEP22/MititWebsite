@@ -2,7 +2,7 @@ version: "3"
 
 services:
     api:
-        build: ./MititBack/
+        build: ./MititBackend/MititMonolithService/
         container_name: mitit_back
         ports:
             - "8082:8081"
@@ -29,7 +29,7 @@ services:
         restart: always
 
     web:
-        build: ./MititFront/
+        build: ./MititFrontend/MititMainFront/
         container_name: mitit_front
         ports:
             - "80:80"
@@ -42,7 +42,7 @@ services:
         restart: always
 
     web-admin:
-        build: ./MititAdminFront/
+        build: ./MititFrontend/MititAdminFront/
         container_name: mitit_admin_front
         ports:
             - "3000:80"
