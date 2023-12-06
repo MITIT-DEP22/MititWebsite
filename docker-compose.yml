@@ -29,8 +29,11 @@ services:
         restart: always
 
     web:
-        build: ./MititFrontend/MititMainFront/
         container_name: mitit_front
+        build: 
+            context: ./MititFrontend/MititMainFront/
+            args:
+                REACT_APP_HOST: ${SERVER_ADDRESS}
         ports:
             - "80:80"
         expose:
@@ -42,8 +45,11 @@ services:
         restart: always
 
     web-admin:
-        build: ./MititFrontend/MititAdminFront/
         container_name: mitit_admin_front
+        build: 
+            context: ./MititFrontend/MititAdminFront/
+            args:
+                REACT_APP_API_URL: ${SERVER_ADDRESS}
         ports:
             - "3000:80"
         expose:
