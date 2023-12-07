@@ -38,8 +38,8 @@ services:
             - "80:80"
         expose:
             - "80"
-        depends_on:
-            - "api"
+        links:
+          - "api"
         networks:
           - "database_mysql_db_net"
         restart: always
@@ -54,8 +54,8 @@ services:
             - "3000:80"
         expose:
             - "3000"
-        depends_on:
-            - "api"
+        links:
+          - "api"
         networks:
           - "database_mysql_db_net"
         restart: always
