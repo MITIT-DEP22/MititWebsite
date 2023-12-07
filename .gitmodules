@@ -4,3 +4,6 @@
 [submodule "MititFrontend"]
 	path = MititFrontend
 	url = ../MititFrontend.git
+[submodule "MititDiagrams"]
+	path = MititDiagrams
+	url = ../MititDiagrams.git
