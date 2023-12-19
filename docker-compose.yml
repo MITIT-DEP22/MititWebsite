@@ -32,11 +32,3 @@ services:
 networks:
     mititbackend_mitit-external-network:
         external: true
-
-# volumes:
-#     api:
-#         driver: local
-#         driver_opts:
-#             type: none
-#             o: bind
-#             device: ./logs/
