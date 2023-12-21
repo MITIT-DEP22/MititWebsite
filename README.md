@@ -18,7 +18,13 @@ To update a Git submodule, use the following command:
 
 ## About Application
 There are repos in this project: <br>
-  
+
+### Design
+  UI/UX designers:
+  - [Olha Turchak](https://github.com/olgaturchak)
+  - Valeria Maistryshyna
+
+### Client Side:
   [Front](https://github.com/MITIT-DEP22/MititFront) <br>
   Created in 2023 by: 
   - [Vladlen Marchenko](https://github.com/VladLennin)
@@ -29,11 +35,30 @@ There are repos in this project: <br>
   - [Vladlen Marchenko](https://github.com/VladLennin)
   - [Boris Ohorodnii](https://github.com/DadyaBorya)
 
-  [Back](https://github.com/MITIT-DEP22/MititBack) <br>
+### Server Side:
+  [API Gateway](https://github.com/MITIT-DEP22/MititAPIGateway/tree/main) <br>
   Created in 2023 by:
-  - [Vialii Dolhushyn](https://github.com/UncleTm-07)
   - [Oleksandr Zahorenko](https://github.com/OleksandrIX)
 
-  UI/UX designers:
-  - Valeria Maistryshyna
-  - [Olha Turchak](https://github.com/olgaturchak)
+  [Auth Service](https://github.com/MITIT-DEP22/MititAuthService/tree/main) <br>
+  Created in 2023 by:
+  - [Vialii Dolhushyn](https://github.com/Brazilianian)
+  - [Oleksandr Zahorenko](https://github.com/OleksandrIX)
+
+  [Core Service](https://github.com/MITIT-DEP22/MititCoreService/tree/main) <br>
+  Created in 2023 by:
+  - [Vialii Dolhushyn](https://github.com/Brazilianian)
+  - [Oleksandr Zahorenko](https://github.com/OleksandrIX)
+
+  [Discovery Service](https://github.com/MITIT-DEP22/MititDiscoveryService/tree/main) <br>
+    Created in 2023 by:
+  - [Oleksandr Zahorenko](https://github.com/OleksandrIX)
+
+  [Sftp Service](https://github.com/MITIT-DEP22/MititSFTPService/tree/main) <br>
+   Created in 2023 by:
+  - [Vialii Dolhushyn](https://github.com/Brazilianian)
+
+  [Search Service](https://github.com/MITIT-DEP22/MititSearchService/tree/main) <br>
+   Created in 2023 by:
+  - [Denis Hryshchenko](https://github.com/Denis11333)
+  - [Vialii Dolhushyn](https://github.com/pishexod)
