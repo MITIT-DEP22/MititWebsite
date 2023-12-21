@@ -24,6 +24,8 @@ There are repos in this project: <br>
   - [Olha Turchak](https://github.com/olgaturchak)
   - Valeria Maistryshyna
 
+<hr>
+
 ### Client Side:
   [Front](https://github.com/MITIT-DEP22/MititFront) <br>
   Created in 2023 by: 
@@ -34,6 +36,8 @@ There are repos in this project: <br>
   Created in 2023 by:
   - [Vladlen Marchenko](https://github.com/VladLennin)
   - [Boris Ohorodnii](https://github.com/DadyaBorya)
+
+<hr>
 
 ### Server Side:
   [API Gateway](https://github.com/MITIT-DEP22/MititAPIGateway/tree/main) <br>
@@ -61,4 +65,4 @@ There are repos in this project: <br>
   [Search Service](https://github.com/MITIT-DEP22/MititSearchService/tree/main) <br>
    Created in 2023 by:
   - [Denis Hryshchenko](https://github.com/Denis11333)
-  - [Vialii Dolhushyn](https://github.com/pishexod)
+  - [Dmytro Bykov](https://github.com/pishexod)
