@@ -1,7 +1,7 @@
 # Backend command
 # This file is necessary for build-up shortcuts
 # Using this shortcuts you can easily manage your docker containers
-# f.e. If you want to start the docker containers you can just write 'up-backend' and 'up-frontend'
+# f.e. If you want to start the docker containers you can just write 'make up-backend' and 'make up-frontend'
 
 # Check are all parameters configured correct
 config-backend:
