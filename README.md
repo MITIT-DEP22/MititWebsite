@@ -35,6 +35,7 @@ There are repos in this project: <br>
   [Front Admin](https://github.com/MITIT-DEP22/MititAdminFront) <br>
   Created in 2023 by:
   - [Vladlen Marchenko](https://github.com/VladLennin)
+  - [Vladislav Musikhin](https://github.com/UncleTm-07)
   - [Boris Ohorodnii](https://github.com/DadyaBorya)
 
 <hr>
