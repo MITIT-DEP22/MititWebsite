@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 14.02.2024
+### Added
+- Added link to 'ВКСС' page. [Commit](https://github.com/MITIT-DEP22/MititMainFront/commit/35691c0af8259ef61fc1c37ba6d092a488ecec93)
+
+### Fixed
+- Small fix pagingation button click. [Commit](https://github.com/MITIT-DEP22/MititMainFront/commit/ae4c7b19f911c40697d8eeafdc3354634524c813)
+
 ## [1.0.1] - 14.02.2024
 ### Added
 - Added link to gender policy page in Main Front. [Issue #15](https://github.com/MITIT-DEP22/MititMainFront/issues/15#event-11799214039)
