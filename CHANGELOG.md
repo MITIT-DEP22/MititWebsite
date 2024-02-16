@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.4] - 16.02.2024
+### Fixed
+- Synchronized image's sizes in MainFront and AdminFront. [Issue #3](https://github.com/MITIT-DEP22/MititFrontend/issues/3)
+- After authorzation 404 page was shown in AdminFront. [Issue #45](https://github.com/MITIT-DEP22/MititAdminFront/issues/45)
+- Forbid constructor access to non-grantet users in AdminFront. [Issue #37](https://github.com/MITIT-DEP22/MititAdminFront/issues/37)
+- 
+
 ## [1.0.3] - 16.02.2024
 ### Fixed
 - Bug updating slider item, if slider item button is not present in MititCoreService. [Issue #21](https://github.com/MITIT-DEP22/MititCoreService/pull/21)
