@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [1.0.9] - 13.06.2024
+### Added
+- Added scroll to top button [PR #4](https://github.com/MITIT-DEP22/MititFrontend/pull/4)
+### Removed
+- Removed superior page [PR #4](https://github.com/MITIT-DEP22/MititFrontend/pull/4)
+### Fixed
+- Scroll on pages. [PR #3](https://github.com/MITIT-DEP22/MititBackend/pull/3), [PR #4](https://github.com/MITIT-DEP22/MititFrontend/pull/4)
+
+
 ## [1.0.8] - 13.06.2024
 ### Added
 - New nging conf file by A0351. [PR #4](https://github.com/MITIT-DEP22/MititFrontend/pull/4)
