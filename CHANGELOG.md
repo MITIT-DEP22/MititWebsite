@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [1.0.9] - 13.06.2024
+### Added
+- Scroll to top button on Main Front. [PR #30](https://github.com/MITIT-DEP22/MititMainFront/pull/30)
+- Scrroll to top button on Admin Front. [PR#50](https://github.com/MITIT-DEP22/MititAdminFront/pull/50)
+### Fixed
+- Scroll on Main Front. [PR #3](https://github.com/MITIT-DEP22/MititMainFront/pull/30)
+### Removed
+- Card of Seperiors Page on Institute Page. [PR #30](https://github.com/MITIT-DEP22/MititMainFront/pull/30)
+
+
+
+## [1.0.8] - 13.06.2024
+### Added
+- New nging conf file by A0351. [PR #4](https://github.com/MITIT-DEP22/MititFrontend/pull/4)
+### Fixed
+- docker compose files by A0351. [PR #3](https://github.com/MITIT-DEP22/MititBackend/pull/3), [PR #4](https://github.com/MITIT-DEP22/MititFrontend/pull/4)
+
 ## [1.0.8] - 13.06.2024
 ### Added
 - New nging conf file by A0351. [PR #4](https://github.com/MITIT-DEP22/MititFrontend/pull/4)
