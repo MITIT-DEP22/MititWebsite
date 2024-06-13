@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.8] - 13.06.2024
+### Added
+- New nging conf file by A0351
+### Fixed
+- docker compose files by A0351
+
 ## [1.0.7] - 05.03.2024
 ### Fixed
 - Image size in case of only one image in row. [Commit](https://github.com/MITIT-DEP22/MititMainFront/commit/fdca3bcb21beed5ecc1d3449d85c8679ccb7fdaf), [Commit](https://github.com/MITIT-DEP22/MititAdminFront/commit/53d88e15c60a699ae7f10b03ef6d8b1b8a22d366) 
