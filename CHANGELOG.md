@@ -7,9 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.8] - 13.06.2024
 ### Added
-- New nging conf file by A0351
+- New nging conf file by A0351. [PR #4](https://github.com/MITIT-DEP22/MititFrontend/pull/4)
 ### Fixed
-- docker compose files by A0351
+- docker compose files by A0351. [PR #3](https://github.com/MITIT-DEP22/MititBackend/pull/3)
 
 ## [1.0.7] - 05.03.2024
 ### Fixed
